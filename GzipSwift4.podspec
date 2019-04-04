@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name          = "GzipSwift"
-  s.version       = "4.1.0"
+  s.name          = "GzipSwift4"
+  s.version       = "1.0.0"
   s.summary       = "Swift framework that enables gzip/gunzip Data using zlib."
 
   s.homepage      = "https://github.com/1024jp/GzipSwift"
@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
   s.author        = { "1024jp" => "1024jp@wolfrosch.com" }
   s.social_media_url = "https://twitter.com/1024jp"
 
-  s.source        = { :git => "https://github.com/1024jp/GzipSwift.git",
-                      :tag => s.version }
+  s.source        = { :git => "https://github.com/chinabrant/GzipSwift.git",
+                      :branch => "fix-xcode-102" }
   s.source_files  = 'Sources/Gzip/*.swift'
 
   s.module_name = 'Gzip'
