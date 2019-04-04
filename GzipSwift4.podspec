@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = "GzipSwift4"
-  s.version       = "1.0.0"
+  s.version       = "0.0.1"
   s.summary       = "Swift framework that enables gzip/gunzip Data using zlib."
 
   s.homepage      = "https://github.com/chinabrant/GzipSwift"
